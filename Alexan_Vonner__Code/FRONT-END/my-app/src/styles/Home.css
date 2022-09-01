@@ -1,0 +1,23 @@
+body{
+    background-image: none;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+}
+#block-right{
+    background-color: rgb(16, 17, 18);
+    width: 20%;
+    height: 100vh;
+}
+#block-left{
+    background-color: rgb(16, 17, 18);
+    width: 20%;
+    height: 100vh;
+}
+#block-middle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 60%;
+    height: 100vh;
+}

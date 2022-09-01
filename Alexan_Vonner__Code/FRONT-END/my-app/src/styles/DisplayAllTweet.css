@@ -1,0 +1,93 @@
+.flex-block{
+    border: 2px bl solid;
+    border-radius: 10px;
+    margin-top: 60px;
+    background: aliceblue
+
+}
+
+.profil-picture{
+    height: 70px;
+    width: 70px;
+}
+.attachment{
+    margin-top: 30px;
+    width: 100%;
+}
+.container-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    padding-left: 15px;
+    font-size: 1.3em;
+
+    
+}
+.container-attachment{
+    display: flex;
+    flex-direction: column;
+}
+.like-btn{
+    font-size: 1.4em;
+    display: flex;
+    justify-content: left;    
+}
+.fa-solid{
+    margin-left: 10px;
+}
+b{
+    margin-left: 10px;
+}
+.username{
+    font-size: 2em;
+}
+.comment{
+    border: solid 2px pink;
+}
+ul{
+    list-style: none;
+}
+.container-comment{
+    display: flex;
+    flex-direction: column;
+    background-color: #afafaf;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.comment-block{
+    display: flex;
+    justify-content: space-between;
+}
+.container-trash{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-trash{
+    margin-top: 15px;
+    margin-right: 20px;
+    transition: transform .2s; /* Animation */
+
+}
+.fa-trash:hover{
+    transform: scale(1.1);
+}
+.container-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-thumbs-up{
+    font-size: 2em;
+    color: grey;
+}
+
+.fa-thumbs-down{
+    font-size: 2em;
+    color: grey;
+}

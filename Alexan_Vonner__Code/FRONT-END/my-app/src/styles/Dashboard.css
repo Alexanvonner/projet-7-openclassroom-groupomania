@@ -1,0 +1,42 @@
+body{
+    background-image: none;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+}
+#block-right{
+    background-color: grey;
+    width: 20%;
+    height: 100vh;
+}
+#block-left{
+    background-color: grey;
+    width: 20%;
+    height: 100vh;
+}
+#block-middle{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 60%;
+    height: 100vh;
+}
+
+
+#deleteAccount{
+    width: 150px;
+}
+.container-info-user{
+    display: flex;
+    justify-content: space-around;
+  
+}
+label{
+    margin-top: 30px;
+    
+}
+#bio{
+    width: 80%;
+    margin: 0px auto;
+    height: 100px;
+}

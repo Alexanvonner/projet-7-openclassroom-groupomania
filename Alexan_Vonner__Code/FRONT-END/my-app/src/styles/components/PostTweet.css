@@ -1,0 +1,47 @@
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#input-post{
+    border: solid 2px black;
+    height: 50px;
+    width: 80%;
+    font-size: 1.1em;
+    resize: none;
+    margin: auto;
+}
+#input-post::placeholder{
+    color:#43484b;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#btn-tweet{
+    background-color: #059bbf;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+#btn-tweet:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#textarea-flex{
+    display: flex;   
+
+}
+.fa-image{
+    margin-top: 12px;
+    margin-left: -40px;
+    font-size: 1.6em;
+}
+label {
+    cursor: pointer;
+ }
+ 
+ #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
